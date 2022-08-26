@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="171061" started-at="2022-08-26T22:16:56 IST" finished-at="2022-08-26T22:19:47 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@4516af24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="171061" started-at="2022-08-26T22:16:56 IST" finished-at="2022-08-26T22:19:47 IST">
+      <class name="runner.RunCucumberTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCucumberTest@4516af24]" name="setUpClass" is-config="true" duration-ms="1339" started-at="2022-08-26T22:16:56 IST" finished-at="2022-08-26T22:16:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30c3ae63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="setUp" is-config="true" duration-ms="6553" started-at="2022-08-26T22:16:57 IST" finished-at="2022-08-26T22:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@4516af24]" name="runScenario" duration-ms="43570" started-at="2022-08-26T22:17:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-26T22:17:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create an Account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Account under SalesForce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="tearDown" is-config="true" duration-ms="384" started-at="2022-08-26T22:17:47 IST" finished-at="2022-08-26T22:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="setUp" is-config="true" duration-ms="4273" started-at="2022-08-26T22:17:48 IST" finished-at="2022-08-26T22:17:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@4516af24]" name="runScenario" duration-ms="33166" started-at="2022-08-26T22:17:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-26T22:18:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create an Account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Account under SalesForce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="tearDown" is-config="true" duration-ms="123" started-at="2022-08-26T22:18:25 IST" finished-at="2022-08-26T22:18:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="setUp" is-config="true" duration-ms="3600" started-at="2022-08-26T22:18:25 IST" finished-at="2022-08-26T22:18:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@4516af24]" name="runScenario" duration-ms="37650" started-at="2022-08-26T22:18:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-26T22:19:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create an Individual"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Individual under SalesForce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="tearDown" is-config="true" duration-ms="199" started-at="2022-08-26T22:19:07 IST" finished-at="2022-08-26T22:19:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="setUp" is-config="true" duration-ms="3981" started-at="2022-08-26T22:19:07 IST" finished-at="2022-08-26T22:19:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@4516af24]" name="runScenario" duration-ms="32887" started-at="2022-08-26T22:19:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-26T22:19:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create an Individual"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Individual under SalesForce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="tearDown" is-config="true" duration-ms="242" started-at="2022-08-26T22:19:44 IST" finished-at="2022-08-26T22:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCucumberTest@4516af24]" name="tearDownClass" is-config="true" duration-ms="2976" started-at="2022-08-26T22:19:44 IST" finished-at="2022-08-26T22:19:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
